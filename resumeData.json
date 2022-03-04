@@ -1,0 +1,200 @@
+{
+  "main": {
+    "name": "Vipisanan Esvaramoorthy",
+    "description": "Software Engineer at Koach | B.Sc(Hons) in Software Engineering at University of kelaniya",
+    "image": "profilepic.jpeg",
+    "bio": "Experienced Software Engineer with a demonstrated history of working in the software development industry. Skilled in React ,  Spring Boot, React native, Angular, Java, and Management. Strong engineering professional with an Engineer’s Degree focused in Software Engineering from University of Kelaniya Sri Lanka.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "vipisanan1@gmail.com",
+    "phone": "+94 77 93 98 779",
+    "github": "https://github.com/vipisanan",
+    "project": "",
+    "address": {
+      "street": "Ward no 03",
+      "city": "Mulliyawalai,",
+      "state": "Mullaitivu",
+      "zip": "42000"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/tbaker_x",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "University of kelaniya",
+        "degree": "B.Sc (Hons) Software Engineering",
+        "graduated": "Feb 2016 - Mar 2020",
+        "description": ""
+      },
+      {
+        "school": "Mu/Vidyananda Collage",
+        "degree": "G.C.G Advance level",
+        "graduated": "2014",
+        "description": "Maths stream"
+      }
+    ],
+    "work": [
+      {
+        "company": "Oensys Capital",
+        "title": "Software Engineer ",
+        "years": "Jun 2021 - Present",
+        "description": "Modified and adding new enhancement , Deployment , Improvement and research"
+      },
+      {
+        "company": "HUEX STUDIO",
+        "title": "Associate Software Engineer",
+        "years": "Nav 2020 - Jun 2021",
+        "description": "Development and fix bugs reported by client."
+      },
+      {
+        "company": "SenzMate IoT Intelligence",
+        "title": "Part time Associate Software Engineer",
+        "years": "Jun 2019 - Jan 2020",
+        "description": "Developed and maintained business critical application, Modified and upgrade interface and improved performance"
+      },
+      {
+        "company": "SenzMate IoT Intelligence",
+        "title": "Intern Software Engineer",
+        "years": "Sep 2018 - Feb 2019",
+        "description": "Developed new business critical application, Modified and adding new enhancement and fix bugs"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "level": "85%"
+      },
+      {
+        "name": "React js",
+        "level": "78%"
+      },
+      {
+        "name": "Angular",
+        "level": "70%"
+      },
+      {
+        "name": "Front end",
+        "level": "90%",
+        "description": "JavaScript,HTML 5,CSS 3, Boostrap"
+      },
+      {
+        "name": "Back end",
+        "level": "80%",
+        "description": "Spring boot,Micro services,Event Driven Micro Services,Design pattern"
+      },
+      {
+        "name": "Database",
+        "level": "60%"
+      },
+      {
+        "name": "Server and tools",
+        "level": "55%",
+        "description": "Jira,Git,Maven,Linux,Swagger,Postman,AWS"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "RMS",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "koach1.png",
+        "url": "https://koachhub.com/"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "02.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "03.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "04.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "05.jpg",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "06.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "01.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "02.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "03.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "04.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "05.jpg",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "06.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}
