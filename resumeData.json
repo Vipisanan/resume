@@ -4,7 +4,7 @@
     "description": "Software Engineer at Koach | B.Sc(Hons) in Software Engineering at University of kelaniya",
     "image": "profilepic.jpeg",
     "bio": "Experienced Software Engineer with a demonstrated history of working in the software development industry. Skilled in React ,  Spring Boot, React native, Angular, Java, and Management. Strong engineering professional with an Engineer’s Degree focused in Software Engineering from University of Kelaniya Sri Lanka.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you. <Soon>",
     "email": "vipisanan1@gmail.com",
     "phone": "+94 77 93 98 779",
     "github": "https://github.com/vipisanan",
@@ -19,29 +19,29 @@
     "resumedownload": "http://timbakerdev.com",
     "social": [
       {
+        "name": "github",
+        "url": "https://github.com/vipisanan",
+        "className": "fa fa-github"
+      },
+      {
         "name": "facebook",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "url": "https://www.facebook.com/Vipisanan",
         "className": "fa fa-facebook"
       },
       {
         "name": "twitter",
-        "url": "http://twitter.com",
+        "url": "https://twitter.com/EVipisanan",
         "className": "fa fa-twitter"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/vipisanan-esvaramoorthy-291267121/?originalSubdomain=lk",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
+        "url": "http://instagram.com/vipisanan",
         "className": "fa fa-instagram"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/nordicgiant2/react-nice-resume",
-        "className": "fa fa-github"
       }
     ]
   },
@@ -125,75 +125,27 @@
     "projects": [
       {
         "title": "RMS",
-        "category": "My Travel Blog for my post-university travels",
+        "category": "Added feature for Koch Application which analytics the user data and financial data",
         "image": "koach1.png",
         "url": "https://koachhub.com/"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "02.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Knodify",
+        "category": "Online leaning system facilitate for interaction between tutor and student. A tutor can upload Learning Videos, Learning Documents and Assessments etc and students can gain access to those materials according to their subscription.",
+        "image": "tutoreels.png",
+        "url": "https://tutoreels.com/use-cases/"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "03.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Inomas",
+        "category": "Inomas is a comprehensive solution to manage your restaurants in a single place., It has all the features and evolves quickly. Collaboration with people.",
+        "image": "inomas.png",
+        "url": "https://huex.io/project/inomas-restaurant-app-case-study/"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "04.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "05.jpg",
-        "url": "http://www.smirkspace.com"
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "06.jpg",
-        "url": "https://www.canadianwanderlust.com"
-      },
-      {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "01.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "02.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "03.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "04.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "05.jpg",
-        "url": "http://www.smirkspace.com"
-      },
-      {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "06.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "SenzAgro",
+        "category": "SenzAgro is a powerful combination of Climate-smart soil sensing and irrigation automation, with advanced cloud-based Ag intelligence,",
+        "image": "senzagro.png",
+        "url": "https://senzagro.com/"
       }
     ]
   }
