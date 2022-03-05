@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import Slide from "react-reveal";
 
 class Resume extends Component {
+  state={
+    isShown:false
+  }
+ 
   getRandomColor() {
     let letters = "0123456789ABCDEF";
     let color = "#";
@@ -46,10 +50,20 @@ class Resume extends Component {
       const className = "bar-expand " + skills.name.toLowerCase();
       const width = skills.level;
 
+ 
       return (
-        <li key={skills.name}>
+        <li onMouseEnter={() => this.setState({isShown:true})} 
+        onMouseLeave={() => this.setState({isShown:false})} 
+        key={skills.name}>
           <span style={{ width, backgroundColor }} className={className}></span>
           <em>{skills.name}</em>
+          {skills.description && this.state.isShown && (
+          <>
+            <p style={{margin:"20px"}} >{skills.description ? skills.description : ""}</p>
+
+          </>
+          )}
+        
         </li>
       );
     });

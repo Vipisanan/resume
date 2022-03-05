@@ -16,7 +16,7 @@ class Contact extends Component {
     return (
       <section id="contact">
         <Fade bottom duration={1000}>
-          <div className="row section-head">
+          {/* <div className="row section-head">
             <div className="two columns header-col">
               <h1>
                 <span>Get In Touch.</span>
@@ -26,11 +26,11 @@ class Contact extends Component {
             <div className="ten columns">
               <p className="lead">{message}</p>
             </div>
-          </div>
+          </div> */}
         </Fade>
 
         <div className="row">
-          <Slide left duration={1000}>
+          {/* <Slide left duration={1000}>
             <div className="eight columns">
               <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
@@ -101,7 +101,7 @@ class Contact extends Component {
                 <br />
               </div>
             </div>
-          </Slide>
+          </Slide> */}
 
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
@@ -118,20 +118,18 @@ class Contact extends Component {
               </div>
 
               <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
+                <h4 className="widget-title">Quote</h4>
                 <ul id="twitter">
                   <li>
                     <span>
-                      This is Photoshop's version of Lorem Ipsum. Proin gravida
-                      nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                      quis bibendum auctor, nisi elit consequat ipsum
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
+                      I'm in the process of becoming the best version of myself
+                      {/* <a href="./">http://t.co/CGIrdxIlI3</a> */}
                     </span>
                     <b>
                       <a href="./">2 Days Ago</a>
                     </b>
                   </li>
-                  <li>
+                  {/* <li>
                     <span>
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusantium doloremque laudantium, totam rem
@@ -142,7 +140,7 @@ class Contact extends Component {
                     <b>
                       <a href="./">3 Days Ago</a>
                     </b>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </aside>
