@@ -1,13 +1,14 @@
 {
   "main": {
     "name": "Vipisanan Esvaramoorthy",
-    "description": "Software Engineer at Koach | B.Sc(Hons) in Software Engineering at University of kelaniya",
+    "description": "Senior Software Engineer at EV-Technology & @Sysco | B.Sc(Hons) in Software Engineering at University of kelaniya",
     "image": "profilepic.jpeg",
-    "bio": "Experienced Software Engineer with a demonstrated history of working in the software development industry. Skilled in React ,  Spring Boot, React native, Angular, Java, and Management. Strong engineering professional with an Engineer’s Degree focused in Software Engineering from University of Kelaniya Sri Lanka.",
+    "bio": "A dedicated Full Stack Developer with over 4.5 years of experience in building and maintaining robust software applications. Proficient in Java, Spring Boot, ReactJS, and Microservices, with a strong focus on scalability, performance, and user-centric design. Adept at collaborating in cross-functional teams, utilizing Agile methodologies, and ensuring timely delivery of high-quality software. Skilled in API integrations, UI/UX development, and mentoring junior developers. Passionate about continuous learning and staying updated with emerging technologies to drive innovation and efficiency in software development. Proven ability to solve complex problems and deliver effective solutions in dynamic environments.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you. <Soon>",
     "email": "vipisanan1@gmail.com",
     "phone": "+94 77 93 98 779",
     "github": "https://github.com/vipisanan",
+    "linkedin": "http://www.linkedin.com/in/vipisanan",
     "project": "",
     "address": {
       "street": "Ward no 03",
@@ -46,13 +47,13 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "Proficient in developing scalable, efficient, and maintainable applications using modern technologies like React, Java, Spring Boot, and Microservices.",
     "education": [
       {
         "school": "University of kelaniya",
         "degree": "B.Sc (Hons) Software Engineering",
         "graduated": "Feb 2016 - Mar 2020",
-        "description": ""
+        "description": "The University of Kelaniya delivers industry-aligned, practical, and research-driven software engineering education."
       },
       {
         "school": "Mu/Vidyananda Collage",
@@ -63,28 +64,145 @@
     ],
     "work": [
       {
-        "company": "Oensys Capital",
-        "title": "Software Engineer ",
-        "years": "Jun 2021 - Present",
-        "description": "Modified and adding new enhancement , Deployment , Improvement and research"
+        "company": "@ E-Visible | Sysco",
+        "title": "Senior Software Engineer ",
+        "years": "Jun 2023 - Present",
+        "description": "Proficiently utilized the Sysco Warehouse Management System (SWMS) while leveraging React and Spring technologies.",
+        "projects": [
+          {
+            "name": "SWMS",
+            "duration": "04/2023 present",
+            "describe": "Sysco's warehouse management system, optimizing operations for eﬃcient foodservice distribution.",
+            "technologies": [
+              "React js",
+              "Redux",
+              "Spring boot,Monolithic architecture",
+              "Unit test",
+              "git",
+              "Jira",
+              "terraform"
+            ]
+          }
+        ]
       },
       {
-        "company": "HUEX STUDIO",
+        "company": "@ Allion Technologies",
+        "title": "Software Engineer ",
+        "years": "Jun 2022 - 2023",
+        "description": "Solely managed React-based projects at Allion technologies, demonstrating a high level of proficiency in front-end development while maintaining and enhancing web applications.",
+        "projects": [
+          {
+            "name": "HCSL",
+            "duration": "Jun 2021 - Dec 2021",
+            "describe": "HCSL is an internal audit management system which means a product developed to schedule and complete internal audits. And it can have multiple clients. The client can use templates and modify the template for their purpose. they can track their activities also.",
+            "technologies": [
+              "React js",
+              "TypeScript",
+              "Redux",
+              "Fromik",
+              "Bitbucket",
+              "Jira"
+            ]
+          },
+          {
+            "name": "Emotionize A",
+            "duration": null,
+            "describe": "Led a team of interns to develop an NLP Management Web App. Defined project scope, assigned tasks, and ensured timely delivery. Oversaw the development process while mentoring interns on best practices.",
+            "technologies": [
+              "ReactJs",
+              "HTML/CSS",
+              "JavaScript",
+              "API Integration",
+              "Design"
+            ]
+          },
+          {
+            "name": "Intern Training in React",
+            "duration": null,
+            "describe": "Designed and conducted a comprehensive React training program for interns. Covered React fundamentals, state management, and component-based architecture. Provided mentorship through code reviews and complex problem-solving.",
+            "technologies": [
+              "ReactJs",
+              "Code Reviews",
+              "Educational",
+              "Material Development"
+            ]
+          }
+        ]
+      },
+      {
+        "company": "@ Oensys Capital",
+        "title": "Software Engineer ",
+        "years": "Jun 2021 - Jun 2022",
+        "description": "Modified and adding new enhancement , Deployment , Improvement and research",
+        "projects": [
+          {
+            "name": "Aktive",
+            "duration": null,
+            "describe": "Aktive is an one of the service of Koach application.Here, Added a feature for Aktive which is messaging.",
+            "technologies": [
+              "Spring boot cloud Microservices",
+              "Maven",
+              "Docker",
+              "AWS(SQS)",
+              "Apache",
+              "mongoDB"
+            ]
+          },
+          {
+            "name": "RMS",
+            "duration": null,
+            "describe": "Added feature for Koach Application which analytics the user data and financial data.",
+            "technologies": [
+              "Spring cloud Microservices",
+              "Maven",
+              "Docker",
+              "AWS",
+              "Apache",
+              "Event driven Microservices"
+            ]
+          },
+          {
+            "name": "Knodify",
+            "duration": null,
+            "describe": "Online learning system facilitate for interaction between tutor and student. A tutor can upload Learning Videos, Learning Documents and Assessments etc and students can gain access to those materials according to their subscription.",
+            "technologies": ["ReactJs", "Redux"]
+          }
+        ]
+      },
+      {
+        "company": "@ HUEX STUDIO",
         "title": "Associate Software Engineer",
         "years": "Nav 2020 - Jun 2021",
-        "description": "Development and fix bugs reported by client."
+        "description": "Development and fix bugs reported by client.",
+        "projects": [
+          {
+            "name": "Inomas",
+            "duration": null,
+            "describe": "Inomas is richly featured with collaborative functionalities to optimize restaurant management. The master key features of the application allows managers to manage time schedules and seamlessly track employee work hours for payroll processing and much more",
+            "technologies": ["ReactJs", "Redux"]
+          }
+        ]
       },
       {
-        "company": "SenzMate IoT Intelligence",
-        "title": "Part time Associate Software Engineer",
-        "years": "Jun 2019 - Jan 2020",
-        "description": "Developed and maintained business critical application, Modified and upgrade interface and improved performance"
-      },
-      {
-        "company": "SenzMate IoT Intelligence",
-        "title": "Intern Software Engineer",
-        "years": "Sep 2018 - Feb 2019",
-        "description": "Developed new business critical application, Modified and adding new enhancement and fix bugs"
+        "company": "@ SenzMate IoT Intelligence",
+        "title": "Part time And Intern Associate Software Engineer",
+        "years": "Jun 2018 - Jan 2020",
+        "description": "Developed and maintained business critical application, Modified and upgradeinterface and improved performance.",
+        "projects": [
+          {
+            "name": "SWMS",
+            "duration": "2018 - 2020",
+            "describe": "SenzAgro is the agriculture solution based project, it has advanced soil sensor technology and cloud-based Ag analytics that integrates with micro-irrigation systems helping farmers to increase crop yield and reduce water, fertilisation and energy costs.",
+            "technologies": [
+              "React js",
+              "Redux",
+              "Angular 6",
+              "Spring boot",
+              "MQTT",
+              "Monolithic architecture"
+            ]
+          }
+        ]
       }
     ],
     "skills": [
@@ -95,10 +213,6 @@
       {
         "name": "React js",
         "level": "78%"
-      },
-      {
-        "name": "Angular",
-        "level": "70%"
       },
       {
         "name": "Front end",
@@ -112,7 +226,8 @@
       },
       {
         "name": "Database",
-        "level": "60%"
+        "level": "60%",
+        "description": "Mongo DB, SQL"
       },
       {
         "name": "Server and tools",

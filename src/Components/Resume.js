@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
+import CollapsedBox from "./CollapsedBox";
+import ProjectExperience from "./projectExperience/ProjectExperience";
 
 class Resume extends Component {
-  state={
-    isShown:false
-  }
- 
+  state = {
+    isShown: false,
+  };
+
   getRandomColor() {
     let letters = "0123456789ABCDEF";
     let color = "#";
@@ -27,7 +29,7 @@ class Resume extends Component {
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
           </p>
-          <p>{education.description}</p>
+          <p className="description">{education.description}</p>
         </div>
       );
     });
@@ -40,7 +42,12 @@ class Resume extends Component {
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p>{work.description}</p>
+          <p className="description">{work.description}</p>
+          <div style={{ paddingBottom: 20 }}>
+            <CollapsedBox title="Projects">
+              <ProjectExperience projects={work.projects} />
+            </CollapsedBox>
+          </div>
         </div>
       );
     });
@@ -50,20 +57,21 @@ class Resume extends Component {
       const className = "bar-expand " + skills.name.toLowerCase();
       const width = skills.level;
 
- 
       return (
-        <li onMouseEnter={() => this.setState({isShown:true})} 
-        onMouseLeave={() => this.setState({isShown:false})} 
-        key={skills.name}>
+        <li
+          onMouseEnter={() => this.setState({ isShown: true })}
+          onMouseLeave={() => this.setState({ isShown: false })}
+          key={skills.name}
+        >
           <span style={{ width, backgroundColor }} className={className}></span>
           <em>{skills.name}</em>
           {skills.description && this.state.isShown && (
-          <>
-            <p style={{margin:"20px"}} >{skills.description ? skills.description : ""}</p>
-
-          </>
+            <>
+              <p style={{ margin: "20px" }}>
+                {skills.description ? skills.description : ""}
+              </p>
+            </>
           )}
-        
         </li>
       );
     });
@@ -71,10 +79,10 @@ class Resume extends Component {
     return (
       <section id="resume">
         <Slide left duration={1300}>
-          <div className="row education">
+          <div id="educations" className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Education</span>
+                <span>Educations</span>
               </h1>
             </div>
 
@@ -87,7 +95,7 @@ class Resume extends Component {
         </Slide>
 
         <Slide left duration={1300}>
-          <div className="row work">
+          <div id="works" className="row work">
             <div className="three columns header-col">
               <h1>
                 <span>Work</span>
@@ -99,7 +107,7 @@ class Resume extends Component {
         </Slide>
 
         <Slide left duration={1300}>
-          <div className="row skill">
+          <div id="skills" className="row skill">
             <div className="three columns header-col">
               <h1>
                 <span>Skills</span>

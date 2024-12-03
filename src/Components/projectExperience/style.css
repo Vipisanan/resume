@@ -1,0 +1,50 @@
+.project-experience {
+    font-family: Arial, sans-serif;
+    margin: 30px 0;
+}
+
+.project-experience h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.project {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.project-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-duration {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.project-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.project-technologies {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-technologies li {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    display: inline-block;
+}

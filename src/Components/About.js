@@ -31,7 +31,7 @@ class About extends Component {
               <h2>About Me</h2>
 
               <p>{bio}</p>
-              <div className="row">
+              {/* <div className="row">
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
@@ -55,7 +55,7 @@ class About extends Component {
                     </a>
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </Fade>
